@@ -1,6 +1,5 @@
 .page-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/placeholder.svg?height=600&width=1600");
+  background-image: linear-gradient(rgba(243, 9, 9, 0.6), rgba(1, 255, 179, 0.6));
   background-size: cover;
   background-position: center;
   color: #fff;

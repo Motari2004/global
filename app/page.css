@@ -1,7 +1,4 @@
 
-body{
-  color:aquamarine
-}
 
 
 
@@ -133,8 +130,7 @@ body{
 }
 
 .donation-cta {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/placeholder.svg?height=800&width=1600");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
