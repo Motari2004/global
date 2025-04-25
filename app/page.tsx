@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Protecting Africa's Wildlife & Ecosystems</h1>
+          <h1>rotecting Africa's Wildlife & Ecosystems</h1>
           <p>Join our mission to conserve biodiversity and promote sustainable environmental practices across Africa</p>
           <div className="hero-buttons">
             <Link href="/donate" className="btn">
