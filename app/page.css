@@ -1,0 +1,187 @@
+.hero {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/placeholder.svg?height=1080&width=1920");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 0 1.5rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.mission-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.mission-text {
+  font-size: 1.1rem;
+}
+
+.rounded-image {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.wildlife-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.wildlife-card {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.wildlife-card:hover {
+  transform: translateY(-10px);
+}
+
+.wildlife-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.wildlife-info {
+  padding: 1.5rem;
+}
+
+.wildlife-info h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.read-more:hover {
+  color: var(--dark-color);
+}
+
+.impact {
+  background-color: var(--light-color);
+}
+
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.stat-item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.donation-cta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/placeholder.svg?height=800&width=1600");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+.donation-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.donation-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.donation-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .mission-content {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .donation-content h2 {
+    font-size: 2rem;
+  }
+}
