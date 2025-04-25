@@ -1,7 +1,6 @@
 .hero {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/placeholder.svg?height=1080&width=1920");
+  background-image: linear-gradient(to bottom, #007bff, #ffffff);
   background-size: cover;
   background-position: center;
   color: #fff;
